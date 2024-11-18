@@ -21,6 +21,7 @@ import Navbar from "../../components/Common/Navbar"
 import AddItem from "../../components/Items/AddItem"
 import { PaginationFooter } from "../../components/Common/PaginationFooter.tsx"
 
+
 const itemsSearchSchema = z.object({
   page: z.number().catch(1),
 })
